@@ -1,10 +1,21 @@
 #darknes-wrapper {
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 50px;
+    float: left;
+    margin-left: 60px;
     background-color: #fff;
     border-color: black;
     border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+}
+h1 {
+    text-align: center;
+}
+#darknes-news {
+    float: right;
+    margin-right: 60px;
+    background-color: azure;
+    border-color: darkgreen;
+    border-style:solid;
     border-radius: 20px;
     border-width: 5px;
 }
@@ -16,7 +27,7 @@
     text-align: center;
     background-color: darkblue;
     color: #fff;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-right: 70px;
     margin-top: 10px;
     border-color:azure;
@@ -51,9 +62,9 @@ p {
     text-decoration: none;
 }
 
-#darknes-navbar li a:hover {
-    background-color: #111;
+#darknes-navbar li a:hover:not(.active) {
+    background-color: crimson;
 }
-#darknes-navbar li a:active {
-    background-color: #111;
+#darknes-navbar li .active {
+    background-color: darkgreen;
 }
