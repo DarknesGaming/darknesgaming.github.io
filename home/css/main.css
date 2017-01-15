@@ -1,6 +1,5 @@
 #darknes-wrapper {
     float: left;
-    margin-left: 60px;
     background-color: #fff;
     border-color: black;
     border-style: solid;
@@ -10,34 +9,26 @@
 h1 {
     text-align: center;
 }
-#darknes-news {
-    float: right;
-    margin-right: 60px;
-    background-color: azure;
-    border-color: darkgreen;
-    border-style:solid;
-    border-radius: 20px;
-    border-width: 5px;
-}
 #combat-body {
     background-color: darkred;
     font-family: sans-serif;
 }
 #darknes-footer {
-    text-align: center;
     background-color: darkblue;
     color: #fff;
-    margin-left: 60px;
-    margin-right: 70px;
     margin-top: 10px;
     border-color:azure;
     border-style: solid;
     border-radius: 20px;
 }
+#darknes-footer p {
+    text-align: center;
+}
 p {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    text-align: justify;
 }
 #darknes-navbar ul {
     list-style-type: none;
