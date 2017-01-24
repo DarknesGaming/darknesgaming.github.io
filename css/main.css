@@ -30,6 +30,9 @@ p {
     margin-top: 10px;
     text-align: justify;
 }
+#darknes-navbar {
+    z-index: 2;
+}
 #darknes-navbar ul {
     list-style-type: none;
     margin: 0;
@@ -54,7 +57,7 @@ p {
 }
 
 #darknes-navbar li a:hover:not(.active) {
-    background-color: crimson;
+    background-color: lightgreen;
 }
 #darknes-navbar li .active {
     background-color: darkgreen;
