@@ -1,3 +1,4 @@
+/* The wrapper */
 #darknes-wrapper {
     float: left;
     background-color: #fff;
@@ -6,6 +7,7 @@
     border-radius: 20px;
     border-width: 5px;
 }
+/* This is for ALL headers on h1 */
 h1 {
     text-align: center;
 }
@@ -13,6 +15,7 @@ h1 {
     background-color: darkred;
     font-family: sans-serif;
 }
+/* This is for the footer. */
 #darknes-footer {
     background-color: darkblue;
     color: #fff;
@@ -23,13 +26,37 @@ h1 {
 }
 #darknes-footer p {
     text-align: center;
+    margin: 10px;
 }
-p {
-    margin-left: 10px;
-    margin-right: 10px;
+/* This is for the main article. */
+#darknes-main {
+    border-color: darkorange;
+    background-color: #eee;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+#darknes-main p {
+    margin: 10px;
     text-align: justify;
 }
+/* This is for the news. */
+#darknes-news {
+    border-color: deepskyblue;
+    background-color: lightgreen;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#darknes-news p {
+    margin: 10px;
+    text-align: justify;
+}
+/* This is for the navigation bar. */
 #darknes-navbar {
     z-index: 2;
 }
